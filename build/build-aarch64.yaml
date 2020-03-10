@@ -19,22 +19,22 @@ packages:
   - name: compass-deck
     description: "RESTful API and DB Handlers for Compass"
     get_method: docker
-    url: opnfv/compass-deck:latest
+    url: cyb70289/compass-deck:latest
 
   - name: compass-tasks-k8s
     description: "compass task container for kubernets deployment via kargo"
     get_method: docker
-    url: opnfv/compass-tasks-k8s:latest
+    url: cyb70289/compass-tasks-k8s:latest
 
   - name: compass-cobbler
     description: "cobbler container for compass"
     get_method: docker
-    url: opnfv/compass-cobbler:latest
+    url: cyb70289/compass-cobbler:latest
 
   - name: compass-db
     description: "datebase container for compass"
     get_method: docker
-    url: opnfv/compass-db:latest
+    url: cyb70289/compass-db:latest
 
   - name: compass-mq
     description: "message queue container for compass"
